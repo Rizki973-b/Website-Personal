@@ -1,43 +1,92 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman saya</title>
+    <title>Website</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-
-    <div class="main">
-        <div class="navbar">
-            <label class="logo">Rizki</label>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">PROJECT</a></li>
-                <li><a href="#">SKILLS</a></li>
-                <li><a href="#">ABOUT</a></li>
-            </ul>
+    <!-- *************************Navbar************************* -->
+    <header class="header">
+        <a href="#" class="logo">Rizki M Syah</a>
+        <i class='bx bx-menu' id="menu" style='color:#ffffff'></i>
+        <nav class="navbar">
+            <a href="#home" style="--vlr:1" class="active">Awal</a>
+            <a href="#about" style="--vlr:2">Tentang</a>
+            <a href="#skills" style="--vlr:4">Skills</a>
+            <a href="#contact" style="--vlr:5">Kontak</a>
+        </nav>
+    </header>
+    <!-- *************************Home Section************************* -->
+    <section class="home"  id="home">
+        <div class="text-content">
+            <h1>I'm Rizki Muhamad Syah</h1>
+            <div class="text-animation">
+                <h2>Web Developer</h2>
+            </div>
+    <p>Membuat website, pemeliharaan dan memberi desain.</p>
+         
+            <div class="social-media">
+        <i class='bx bxl-whatsapp' style="--vlr:7"></i>
+        <i class='bx bxl-facebook' style="--vlr:8"></i>
+        <i class='bx bxl-instagram' style="--vlr:9"></i>
+            </div>
         </div>
-    </div>
-    <div class="content">
+        <img src="r.jpg" alt="">
+    </section>
+    <!-- *************************About Section************************* -->
+    <section class="about" id="about">
+        <h2 class="title">Tentang <span>Saya</span></h2>
         
-        <h1>Web Developer</h1>
-        <p>Merancang layout, tatar muka, memberi desain pada sebuah project. 
-            <br>
-            Framework dan mengelola library.
-            <br> </p>
-        </span></p>
-        <div>
-            <button type="button"><span></span>Contact</button>
-            <button type="button"><span></span>Views My Work</button>
+        <div class="text-content2">
+            <h2>Frontend Web Developer</h2>
+    <p>Saya adalah pengembang di bidang website. Sebagai front end saya bertanggung jawab dalam merancang tatar muka dan memberi desain pada sebuah project web.</p>
         </div>
-    </div>
-</div>
-</body>
-</html>
+    </section>
+   
+    <!-- *************************Skills Section************************* -->
+    <section class="skills" id="skills">
+        <h2 class="title">Skills <span>Saya</span></h2>
+        <div class="wrapper">
+            <div class="skill-content">
+                <h3 class="skill-title">Bahasa program</h3>
+                <div class="skill-box skill-box1">
+                    <div class="single-skill">
+                        <span class="topic">HTML</span>
+                        <span class="topic">95%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-1"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">CSS</span>
+                        <span class="topic">90%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">JavaScript</span>
+                        <span class="topic">80%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-3"></div>
+                    </div>
+                </div>
+            </div>
+          
+    </section>
     
+    
+    <script src="script.js"></script>
+</body>
 
+</html>
 
 
 
